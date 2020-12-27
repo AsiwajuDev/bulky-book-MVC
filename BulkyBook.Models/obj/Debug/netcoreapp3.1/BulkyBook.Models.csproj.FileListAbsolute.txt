@@ -1,0 +1,8 @@
+C:\Users\IfeanyiTavia\Documents\Git\.Net Core Solutions\BulkyBook.Models\bin\Debug\netcoreapp3.1\BulkyBook.Models.deps.json
+C:\Users\IfeanyiTavia\Documents\Git\.Net Core Solutions\BulkyBook.Models\bin\Debug\netcoreapp3.1\BulkyBook.Models.dll
+C:\Users\IfeanyiTavia\Documents\Git\.Net Core Solutions\BulkyBook.Models\bin\Debug\netcoreapp3.1\BulkyBook.Models.pdb
+C:\Users\IfeanyiTavia\Documents\Git\.Net Core Solutions\BulkyBook.Models\obj\Debug\netcoreapp3.1\BulkyBook.Models.AssemblyInfoInputs.cache
+C:\Users\IfeanyiTavia\Documents\Git\.Net Core Solutions\BulkyBook.Models\obj\Debug\netcoreapp3.1\BulkyBook.Models.AssemblyInfo.cs
+C:\Users\IfeanyiTavia\Documents\Git\.Net Core Solutions\BulkyBook.Models\obj\Debug\netcoreapp3.1\BulkyBook.Models.csproj.CoreCompileInputs.cache
+C:\Users\IfeanyiTavia\Documents\Git\.Net Core Solutions\BulkyBook.Models\obj\Debug\netcoreapp3.1\BulkyBook.Models.dll
+C:\Users\IfeanyiTavia\Documents\Git\.Net Core Solutions\BulkyBook.Models\obj\Debug\netcoreapp3.1\BulkyBook.Models.pdb
