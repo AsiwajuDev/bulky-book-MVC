@@ -1857,6 +1857,43 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "BulkyBook.DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "BulkyBook.Models": "1.0.0",
+          "BulkyBook.Utility": "1.0.0",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.1",
+          "Microsoft.EntityFrameworkCore.Relational": "5.0.1",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.1"
+        },
+        "compile": {
+          "bin/placeholder/BulkyBook.DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BulkyBook.DataAccess.dll": {}
+        }
+      },
+      "BulkyBook.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/BulkyBook.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BulkyBook.Models.dll": {}
+        }
+      },
+      "BulkyBook.Utility/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/BulkyBook.Utility.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BulkyBook.Utility.dll": {}
+        }
       }
     }
   },
@@ -6664,10 +6701,28 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "BulkyBook.DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../BulkyBook.DataAccess/BulkyBook.DataAccess.csproj",
+      "msbuildProject": "../BulkyBook.DataAccess/BulkyBook.DataAccess.csproj"
+    },
+    "BulkyBook.Models/1.0.0": {
+      "type": "project",
+      "path": "../BulkyBook.Models/BulkyBook.Models.csproj",
+      "msbuildProject": "../BulkyBook.Models/BulkyBook.Models.csproj"
+    },
+    "BulkyBook.Utility/1.0.0": {
+      "type": "project",
+      "path": "../BulkyBook.Utility/BulkyBook.Utility.csproj",
+      "msbuildProject": "../BulkyBook.Utility/BulkyBook.Utility.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "BulkyBook.DataAccess >= 1.0.0",
+      "BulkyBook.Models >= 1.0.0",
+      "BulkyBook.Utility >= 1.0.0",
       "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 5.0.1",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 5.0.1",
       "Microsoft.AspNetCore.Identity.UI >= 5.0.1",
@@ -6709,7 +6764,17 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\IfeanyiTavia\\Documents\\Git\\.Net Core Solutions\\BulkyBook.DataAccess\\BulkyBook.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\IfeanyiTavia\\Documents\\Git\\.Net Core Solutions\\BulkyBook.DataAccess\\BulkyBook.DataAccess.csproj"
+            },
+            "C:\\Users\\IfeanyiTavia\\Documents\\Git\\.Net Core Solutions\\BulkyBook.Models\\BulkyBook.Models.csproj": {
+              "projectPath": "C:\\Users\\IfeanyiTavia\\Documents\\Git\\.Net Core Solutions\\BulkyBook.Models\\BulkyBook.Models.csproj"
+            },
+            "C:\\Users\\IfeanyiTavia\\Documents\\Git\\.Net Core Solutions\\BulkyBook.Utility\\BulkyBook.Utility.csproj": {
+              "projectPath": "C:\\Users\\IfeanyiTavia\\Documents\\Git\\.Net Core Solutions\\BulkyBook.Utility\\BulkyBook.Utility.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
