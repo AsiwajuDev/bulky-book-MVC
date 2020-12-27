@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\IfeanyiTavia\\Documents\\Git\\.Net Core Solutions\\BulkyBookMVC\\BulkyBookMVC.csproj": {}
+    "C:\\Users\\IfeanyiTavia\\Documents\\Git\\.Net Core Solutions\\bulky-book-MVC\\BulkyBookMVC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\IfeanyiTavia\\Documents\\Git\\.Net Core Solutions\\BulkyBookMVC\\BulkyBookMVC.csproj": {
+    "C:\\Users\\IfeanyiTavia\\Documents\\Git\\.Net Core Solutions\\bulky-book-MVC\\BulkyBookMVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\IfeanyiTavia\\Documents\\Git\\.Net Core Solutions\\BulkyBookMVC\\BulkyBookMVC.csproj",
+        "projectUniqueName": "C:\\Users\\IfeanyiTavia\\Documents\\Git\\.Net Core Solutions\\bulky-book-MVC\\BulkyBookMVC.csproj",
         "projectName": "BulkyBookMVC",
-        "projectPath": "C:\\Users\\IfeanyiTavia\\Documents\\Git\\.Net Core Solutions\\BulkyBookMVC\\BulkyBookMVC.csproj",
+        "projectPath": "C:\\Users\\IfeanyiTavia\\Documents\\Git\\.Net Core Solutions\\bulky-book-MVC\\BulkyBookMVC.csproj",
         "packagesPath": "C:\\Users\\IfeanyiTavia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\IfeanyiTavia\\Documents\\Git\\.Net Core Solutions\\BulkyBookMVC\\obj\\",
+        "outputPath": "C:\\Users\\IfeanyiTavia\\Documents\\Git\\.Net Core Solutions\\bulky-book-MVC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -54,6 +54,10 @@
               "version": "[5.0.1, )"
             },
             "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
               "target": "Package",
               "version": "[5.0.1, )"
             },
