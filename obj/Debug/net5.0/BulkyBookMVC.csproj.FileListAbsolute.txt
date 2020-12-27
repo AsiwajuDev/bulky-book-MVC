@@ -66,8 +66,6 @@ C:\Users\IfeanyiTavia\Documents\Git\.Net Core Solutions\bulky-book-MVC\obj\Debug
 C:\Users\IfeanyiTavia\Documents\Git\.Net Core Solutions\bulky-book-MVC\obj\Debug\net5.0\BulkyBookMVC.TagHelpers.output.cache
 C:\Users\IfeanyiTavia\Documents\Git\.Net Core Solutions\bulky-book-MVC\obj\Debug\net5.0\BulkyBookMVC.RazorCoreGenerate.cache
 C:\Users\IfeanyiTavia\Documents\Git\.Net Core Solutions\bulky-book-MVC\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
-C:\Users\IfeanyiTavia\Documents\Git\.Net Core Solutions\bulky-book-MVC\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
-C:\Users\IfeanyiTavia\Documents\Git\.Net Core Solutions\bulky-book-MVC\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\Users\IfeanyiTavia\Documents\Git\.Net Core Solutions\bulky-book-MVC\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\IfeanyiTavia\Documents\Git\.Net Core Solutions\bulky-book-MVC\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\IfeanyiTavia\Documents\Git\.Net Core Solutions\bulky-book-MVC\obj\Debug\net5.0\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
@@ -442,3 +440,7 @@ C:\Users\IfeanyiTavia\Documents\Git\.Net Core Solutions\bulky-book-MVC\bin\Debug
 C:\Users\IfeanyiTavia\Documents\Git\.Net Core Solutions\bulky-book-MVC\bin\Debug\net5.0\BulkyBook.DataAccess.pdb
 C:\Users\IfeanyiTavia\Documents\Git\.Net Core Solutions\bulky-book-MVC\bin\Debug\net5.0\BulkyBook.Models.pdb
 C:\Users\IfeanyiTavia\Documents\Git\.Net Core Solutions\bulky-book-MVC\bin\Debug\net5.0\BulkyBook.Utility.pdb
+C:\Users\IfeanyiTavia\Documents\Git\.Net Core Solutions\bulky-book-MVC\obj\Debug\net5.0\Razor\Areas\Customer\Views\Home\Index.cshtml.g.cs
+C:\Users\IfeanyiTavia\Documents\Git\.Net Core Solutions\bulky-book-MVC\obj\Debug\net5.0\Razor\Areas\Customer\Views\Home\Privacy.cshtml.g.cs
+C:\Users\IfeanyiTavia\Documents\Git\.Net Core Solutions\bulky-book-MVC\obj\Debug\net5.0\Razor\Areas\Customer\Views\_ViewImports.cshtml.g.cs
+C:\Users\IfeanyiTavia\Documents\Git\.Net Core Solutions\bulky-book-MVC\obj\Debug\net5.0\Razor\Areas\Customer\Views\_ViewStart.cshtml.g.cs
