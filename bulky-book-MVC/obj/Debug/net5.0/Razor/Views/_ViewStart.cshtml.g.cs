@@ -13,13 +13,6 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
 #nullable restore
-#line 1 "C:\Users\IfeanyiTavia\Documents\Git\.Net Core Solutions\bulky-book-MVC\Views\_ViewImports.cshtml"
-using BulkyBookMVC;
-
-#line default
-#line hidden
-#nullable disable
-#nullable restore
 #line 2 "C:\Users\IfeanyiTavia\Documents\Git\.Net Core Solutions\bulky-book-MVC\Views\_ViewImports.cshtml"
 using BulkyBook.Models;
 
@@ -34,7 +27,7 @@ using BulkyBook.Models.ViewModels;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7091c65830b0329e613be026ede8a57552863778", @"/Views/_ViewStart.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"0648aa93c9c175f0b1a6f48f1401a0c780f72e1a", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"a60f60106870128ffc08a57ba212862d065cb31c", @"/Views/_ViewImports.cshtml")]
     public class Views__ViewStart : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

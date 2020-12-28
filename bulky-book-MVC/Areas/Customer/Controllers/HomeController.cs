@@ -7,7 +7,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace BulkyBookMVC.Areas.Customer.Controllers
+namespace BulkyBook.Areas.Customer.Controllers
 {
     [Area("Customer")]
     public class HomeController : Controller

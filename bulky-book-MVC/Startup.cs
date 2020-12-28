@@ -1,4 +1,5 @@
-using BulkyBookMVC.DataAccess.Data;
+using BulkyBook.DataAccess.Data;
+using BulkyBook.DataAccess;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -13,7 +14,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace BulkyBookMVC
+namespace BulkyBook
 {
     public class Startup
     {
