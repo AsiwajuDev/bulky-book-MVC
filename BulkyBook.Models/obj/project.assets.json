@@ -8,25 +8,25 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\IfeanyiTavia\\.nuget\\packages\\": {},
+    "C:\\Users\\kasiwaju\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\IfeanyiTavia\\Documents\\Git\\.Net Core Solutions\\BulkyBook.Models\\BulkyBook.Models.csproj",
+      "projectUniqueName": "C:\\Users\\kasiwaju\\Documents\\Git\\bulky-book-MVC\\BulkyBook.Models\\BulkyBook.Models.csproj",
       "projectName": "BulkyBook.Models",
-      "projectPath": "C:\\Users\\IfeanyiTavia\\Documents\\Git\\.Net Core Solutions\\BulkyBook.Models\\BulkyBook.Models.csproj",
-      "packagesPath": "C:\\Users\\IfeanyiTavia\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\IfeanyiTavia\\Documents\\Git\\.Net Core Solutions\\BulkyBook.Models\\obj\\",
+      "projectPath": "C:\\Users\\kasiwaju\\Documents\\Git\\bulky-book-MVC\\BulkyBook.Models\\BulkyBook.Models.csproj",
+      "packagesPath": "C:\\Users\\kasiwaju\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\kasiwaju\\Documents\\Git\\bulky-book-MVC\\BulkyBook.Models\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\IfeanyiTavia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\kasiwaju\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -62,6 +62,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.1.10, 3.1.10]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"

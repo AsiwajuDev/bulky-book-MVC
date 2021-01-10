@@ -6,3 +6,12 @@ C:\Users\IfeanyiTavia\Documents\Git\.Net Core Solutions\BulkyBook.Utility\obj\De
 C:\Users\IfeanyiTavia\Documents\Git\.Net Core Solutions\BulkyBook.Utility\obj\Debug\netcoreapp3.1\BulkyBook.Utility.csproj.CoreCompileInputs.cache
 C:\Users\IfeanyiTavia\Documents\Git\.Net Core Solutions\BulkyBook.Utility\obj\Debug\netcoreapp3.1\BulkyBook.Utility.dll
 C:\Users\IfeanyiTavia\Documents\Git\.Net Core Solutions\BulkyBook.Utility\obj\Debug\netcoreapp3.1\BulkyBook.Utility.pdb
+C:\Users\kasiwaju\Documents\Git\bulky-book-MVC\BulkyBook.Utility\bin\Debug\netcoreapp3.1\BulkyBook.Utility.deps.json
+C:\Users\kasiwaju\Documents\Git\bulky-book-MVC\BulkyBook.Utility\bin\Debug\netcoreapp3.1\BulkyBook.Utility.dll
+C:\Users\kasiwaju\Documents\Git\bulky-book-MVC\BulkyBook.Utility\bin\Debug\netcoreapp3.1\BulkyBook.Utility.pdb
+C:\Users\kasiwaju\Documents\Git\bulky-book-MVC\BulkyBook.Utility\obj\Debug\netcoreapp3.1\BulkyBook.Utility.csprojAssemblyReference.cache
+C:\Users\kasiwaju\Documents\Git\bulky-book-MVC\BulkyBook.Utility\obj\Debug\netcoreapp3.1\BulkyBook.Utility.AssemblyInfoInputs.cache
+C:\Users\kasiwaju\Documents\Git\bulky-book-MVC\BulkyBook.Utility\obj\Debug\netcoreapp3.1\BulkyBook.Utility.AssemblyInfo.cs
+C:\Users\kasiwaju\Documents\Git\bulky-book-MVC\BulkyBook.Utility\obj\Debug\netcoreapp3.1\BulkyBook.Utility.csproj.CoreCompileInputs.cache
+C:\Users\kasiwaju\Documents\Git\bulky-book-MVC\BulkyBook.Utility\obj\Debug\netcoreapp3.1\BulkyBook.Utility.dll
+C:\Users\kasiwaju\Documents\Git\bulky-book-MVC\BulkyBook.Utility\obj\Debug\netcoreapp3.1\BulkyBook.Utility.pdb

@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Tn/K5trtkz3eZi3/ytpukmoLxyk22+vuKcbjKXz8yP+G6qoEl2ZjuPhY547/4OMZLwr2bnF7RIsekmBK77Hgiw==",
+  "dgSpecHash": "YZJcMKmhCg/UXT3/n2h8TStUiyIIRFjxt03R62wu2dIWpgZmB34VPMk3CVCuwfMEG7r4DRToVDrX9+j0SAN2oA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\IfeanyiTavia\\Documents\\Git\\.Net Core Solutions\\BulkyBook.Utility\\BulkyBook.Utility.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\kasiwaju\\Documents\\Git\\bulky-book-MVC\\BulkyBook.Utility\\BulkyBook.Utility.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kasiwaju\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
+  ],
   "logs": []
 }

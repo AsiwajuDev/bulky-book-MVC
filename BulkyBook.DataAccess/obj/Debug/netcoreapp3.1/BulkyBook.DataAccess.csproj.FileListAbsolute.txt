@@ -12,3 +12,17 @@ C:\Users\IfeanyiTavia\Documents\Git\.Net Core Solutions\BulkyBook.DataAccess\obj
 C:\Users\IfeanyiTavia\Documents\Git\.Net Core Solutions\BulkyBook.DataAccess\obj\Debug\netcoreapp3.1\BulkyBook.DataAccess.csproj.CopyComplete
 C:\Users\IfeanyiTavia\Documents\Git\.Net Core Solutions\BulkyBook.DataAccess\obj\Debug\netcoreapp3.1\BulkyBook.DataAccess.dll
 C:\Users\IfeanyiTavia\Documents\Git\.Net Core Solutions\BulkyBook.DataAccess\obj\Debug\netcoreapp3.1\BulkyBook.DataAccess.pdb
+C:\Users\kasiwaju\Documents\Git\bulky-book-MVC\BulkyBook.DataAccess\bin\Debug\netcoreapp3.1\BulkyBook.DataAccess.deps.json
+C:\Users\kasiwaju\Documents\Git\bulky-book-MVC\BulkyBook.DataAccess\bin\Debug\netcoreapp3.1\BulkyBook.DataAccess.dll
+C:\Users\kasiwaju\Documents\Git\bulky-book-MVC\BulkyBook.DataAccess\bin\Debug\netcoreapp3.1\BulkyBook.DataAccess.pdb
+C:\Users\kasiwaju\Documents\Git\bulky-book-MVC\BulkyBook.DataAccess\bin\Debug\netcoreapp3.1\BulkyBook.Models.dll
+C:\Users\kasiwaju\Documents\Git\bulky-book-MVC\BulkyBook.DataAccess\bin\Debug\netcoreapp3.1\BulkyBook.Utility.dll
+C:\Users\kasiwaju\Documents\Git\bulky-book-MVC\BulkyBook.DataAccess\bin\Debug\netcoreapp3.1\BulkyBook.Models.pdb
+C:\Users\kasiwaju\Documents\Git\bulky-book-MVC\BulkyBook.DataAccess\bin\Debug\netcoreapp3.1\BulkyBook.Utility.pdb
+C:\Users\kasiwaju\Documents\Git\bulky-book-MVC\BulkyBook.DataAccess\obj\Debug\netcoreapp3.1\BulkyBook.DataAccess.csprojAssemblyReference.cache
+C:\Users\kasiwaju\Documents\Git\bulky-book-MVC\BulkyBook.DataAccess\obj\Debug\netcoreapp3.1\BulkyBook.DataAccess.AssemblyInfoInputs.cache
+C:\Users\kasiwaju\Documents\Git\bulky-book-MVC\BulkyBook.DataAccess\obj\Debug\netcoreapp3.1\BulkyBook.DataAccess.AssemblyInfo.cs
+C:\Users\kasiwaju\Documents\Git\bulky-book-MVC\BulkyBook.DataAccess\obj\Debug\netcoreapp3.1\BulkyBook.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\kasiwaju\Documents\Git\bulky-book-MVC\BulkyBook.DataAccess\obj\Debug\netcoreapp3.1\BulkyBook.DataAccess.csproj.CopyComplete
+C:\Users\kasiwaju\Documents\Git\bulky-book-MVC\BulkyBook.DataAccess\obj\Debug\netcoreapp3.1\BulkyBook.DataAccess.dll
+C:\Users\kasiwaju\Documents\Git\bulky-book-MVC\BulkyBook.DataAccess\obj\Debug\netcoreapp3.1\BulkyBook.DataAccess.pdb
