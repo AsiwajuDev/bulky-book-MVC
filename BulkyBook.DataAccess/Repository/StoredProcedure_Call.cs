@@ -17,7 +17,7 @@ namespace BulkyBook.DataAccess.Repository
 
         public StoredProcedure_Call(ApplicationDbContext db)
         {
-            db = _db;
+            _db = db;
             ConnectionString = db.Database.GetDbConnection().ConnectionString;
         }
         public void Dispose()
