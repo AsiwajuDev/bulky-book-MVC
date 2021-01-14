@@ -70,7 +70,7 @@ namespace BulkyBook.DataAccess.Repository
             return query.FirstOrDefault();
         }
 
-        public T GetT(int id)
+        public T Get(int id)
         {
             return dbSet.Find(id);
         }
