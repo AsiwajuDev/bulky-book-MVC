@@ -1,5 +1,7 @@
 ﻿using BulkyBook.DataAccess.Repository.IRepository;
 using BulkyBook.Models;
+using BulkyBook.Utility;
+using Dapper;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -31,7 +33,9 @@ namespace BulkyBookMVC.Areas.Admin.Controllers
                 return View(coverTypes);
             }
             //to edit
-            coverTypes = _unitOfWork.CoverTypes.Get(id.GetValueOrDefault());
+            var parameter = new DynamicParameters();
+            parameter.Add("@Id", id);
+            coverTypes = _unitOfWork.StoredProcedure_Call.OneRecord<CoverTypes>(SD.Proc_CoverType_Get, parameter);
 
             if (coverTypes == null)
             {
@@ -45,7 +49,7 @@ namespace BulkyBookMVC.Areas.Admin.Controllers
         [HttpGet]
         public IActionResult GetAll()
         {
-            var allObj = _unitOfWork.CoverTypes.GetAll();
+            var allObj = _unitOfWork.StoredProcedure_Call.List<CoverTypes>(SD.Proc_CoverType_GetAll, null);
             return Json(new { data = allObj });
         }
 
@@ -55,13 +59,16 @@ namespace BulkyBookMVC.Areas.Admin.Controllers
         {
             if (ModelState.IsValid)
             {
-                if(coverTypes.Id == 0)
+                var parameter = new DynamicParameters();
+                parameter.Add("@Name", coverTypes.Name);
+                if (coverTypes.Id == 0)
                 {
-                    _unitOfWork.CoverTypes. Add(coverTypes);                    
+                    _unitOfWork.StoredProcedure_Call.Execute(SD.Proc_CoverType_Create, parameter);                    
 ;                }
                 else
                 {
-                    _unitOfWork.CoverTypes.Update(coverTypes);
+                    parameter.Add("@Id", coverTypes.Id);
+                    _unitOfWork.StoredProcedure_Call.Execute(SD.Proc_CoverType_Update, parameter);
                 }
                 _unitOfWork.Save();
                 return RedirectToAction(nameof(Index));
@@ -72,12 +79,14 @@ namespace BulkyBookMVC.Areas.Admin.Controllers
         [HttpDelete]
         public IActionResult Delete(int id)
         {
-            var objFromDb = _unitOfWork.CoverTypes.Get(id);
+            var parameter = new DynamicParameters();
+            parameter.Add("@Id", id);
+            var objFromDb = _unitOfWork.StoredProcedure_Call.OneRecord<CoverTypes>(SD.Proc_CoverType_Get, parameter);
             if(objFromDb == null)
             {
                 return Json(new { success = false, message = "Error While Deleting" });
             }
-            _unitOfWork.CoverTypes.Remove(objFromDb);
+            _unitOfWork.StoredProcedure_Call.Execute(SD.Proc_CoverType_Delete, parameter);
             _unitOfWork.Save();
             return Json(new { success = true, message = "Delete Successful" });
         }
