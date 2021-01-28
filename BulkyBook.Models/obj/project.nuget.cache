@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8/e02w4wS+NldQkDmnbb/iRhl/lWPQ6crdKcyYBGCz/nj/kZqZV2ZelMhqIcR7aKTpxuKwkCxO7Nj4RLrKqjew==",
+  "dgSpecHash": "o1Vd00qINMUJMU8Xr161bBBnejYUz24btj0qwtDsL+Y1GWFJUjiEegszur9U8+CjV9ml6iMGPgLvbYECDCz4vA==",
   "success": true,
   "projectFilePath": "C:\\Users\\kasiwaju\\Documents\\Git\\bulky-book-MVC\\BulkyBook.Models\\BulkyBook.Models.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\kasiwaju\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }
