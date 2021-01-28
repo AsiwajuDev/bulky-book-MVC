@@ -94,7 +94,7 @@
                 </div>
                 <div class="col-8">
                     @Html.DropDownListFor(m => m.Product.CategoryId, Model.CategoryList, "-Select a Category",
-                   new { @class = "form-control form-select" });
+                   new { @class = "form-control form-select" })
                     <span asp-validation-for="Product.CategoryId" class="text-danger"></span>
                 </div>
             </div>
@@ -104,7 +104,7 @@
                 </div>
                 <div class="col-8">
                     @Html.DropDownListFor(m => m.Product.CoverTypesId, Model.CoverTypesList, "-Select a Cover Type",
-                   new { @class = "form-control form-select" });
+                   new { @class = "form-control form-select" })
                     <span asp-validation-for="Product.CoverTypes" class="text-danger"></span>
                 </div>
             </div>
@@ -113,7 +113,7 @@
                     Image
                 </div>
                 <div class="col-8">
-                    <input type="file" name="files" id="uploadBox" multiple class="form-control"  />
+                    <input type="file" name="files" id="uploadBox" multiple class="form-control form-control-file"  />
                 </div>
             </div>
             <div class="form-group row">
@@ -145,4 +145,20 @@
 
 @section Scripts{ 
     <partial name="_ValidationScriptsPartial" />
+    <script src="https://cdn.tiny.cloud/1/7fzx7l3tiyp3jpkucosmartzd9fs5wwjdah2fuq32g11m6e1/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
+    <script>
+        tinymce.init({
+            selector: 'textarea',
+            plugins: 'lists',
+            menubar: 'file edit format'
+        });
+
+        function validateInput() {
+            if (document.getElementById("uploadBox").value == "") {
+                swal("Error", "Please select an image", "error");
+                return false;
+            }
+            return true;
+        }
+    </script>
 }
