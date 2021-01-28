@@ -92,7 +92,7 @@ namespace BulkyBookMVC.Areas.Admin.Controllers
                     {
                         files[0].CopyTo(fileStreams);
                     }
-                    productVM.Product.ImageUrl = @"\images\product" + fileName + extension;
+                    productVM.Product.ImageUrl = @"\images\products\" + fileName + extension;
 
                 }
                 else
@@ -126,15 +126,15 @@ namespace BulkyBookMVC.Areas.Admin.Controllers
         [HttpGet]
         public IActionResult GetAll()
         {
-            var allObj = _unitOfWork.Product.GetAll(includeProperties: "Category, CoverTypes");
+            var allObj = _unitOfWork.Product.GetAll(includeProperties: "Category,CoverTypes");
             return Json(new { data = allObj });
         }
 
         [HttpDelete]
         public IActionResult Delete(int id)
         {
-            var objFromDb = _unitOfWork.Product.Get(id);
-            if(objFromDb == null)
+            var objFromDb = _unitOfWork.Product.Get(id);            
+            if (objFromDb == null)
             {
                 return Json(new { success = false, message = "Error While Deleting" });
             }
