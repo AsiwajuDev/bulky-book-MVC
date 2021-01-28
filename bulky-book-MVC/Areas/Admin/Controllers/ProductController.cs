@@ -1,7 +1,9 @@
 ﻿using BulkyBook.DataAccess.Repository.IRepository;
 using BulkyBook.Models;
+using BulkyBook.Models.ViewModels;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -27,49 +29,67 @@ namespace BulkyBookMVC.Areas.Admin.Controllers
 
         public IActionResult Upsert(int? id)
         {
-            Product product = new Product();
+            //using viewModel to pick list from category and coverTypes DB tables
+            ProductVM productVM = new ProductVM()
+            {
+                Product = new Product(),
+                CategoryList = _unitOfWork.Category.GetAll().Select(i => new SelectListItem
+                {
+                    Text = i.Name,
+                    Value = i.Id.ToString()
+                }),
+                CoverTypesList = _unitOfWork.CoverTypes.GetAll().Select(i => new SelectListItem
+                {
+                    Text = i.Name,
+                    Value = i.Id.ToString()
+                }),
+
+            };
+
             if(id == null)
             {
                 //to create
-                return View(product);
+                return View(productVM);
             }
             //to edit
-            product = _unitOfWork.Product.Get(id.GetValueOrDefault());
+            productVM.Product = _unitOfWork.Product.Get(id.GetValueOrDefault());
 
-            if (product == null)
+            if (productVM.Product == null)
             {
                 return NotFound();
             }
-            return View(product);
+            return View(productVM);
         }
+
+
+        //[HttpPost]
+        //[ValidateAntiForgeryToken]
+        //public IActionResult Upsert(Product product)
+        //{
+        //    if (ModelState.IsValid)
+        //    {
+        //        if (product.Id == 0)
+        //        {
+        //            _unitOfWork.Product.Add(product);
+        //            ;
+        //        }
+        //        else
+        //        {
+        //            _unitOfWork.Product.Update(product);
+        //        }
+        //        _unitOfWork.Save();
+        //        return RedirectToAction(nameof(Index));
+        //    }
+        //    return View(product);
+        //}
 
         #region API CALLS
 
         [HttpGet]
         public IActionResult GetAll()
         {
-            var allObj = _unitOfWork.Product.GetAll();
+            var allObj = _unitOfWork.Product.GetAll(includeProperties: "Category, CoverTypes");
             return Json(new { data = allObj });
-        }
-
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public IActionResult Upsert(Product product)
-        {
-            if (ModelState.IsValid)
-            {
-                if(product.Id == 0)
-                {
-                    _unitOfWork.Product. Add(product);                    
-;                }
-                else
-                {
-                    _unitOfWork.Product.Update(product);
-                }
-                _unitOfWork.Save();
-                return RedirectToAction(nameof(Index));
-            }
-            return View(product);
         }
 
         [HttpDelete]

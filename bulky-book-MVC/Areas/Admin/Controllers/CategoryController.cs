@@ -40,25 +40,17 @@ namespace BulkyBookMVC.Areas.Admin.Controllers
             return View(category);
         }
 
-        #region API CALLS
-
-        [HttpGet]
-        public IActionResult GetAll()
-        {
-            var allObj = _unitOfWork.Category.GetAll();
-            return Json(new { data = allObj });
-        }
-
         [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult Upsert(Category category)
         {
             if (ModelState.IsValid)
             {
-                if(category.Id == 0)
+                if (category.Id == 0)
                 {
-                    _unitOfWork.Category. Add(category);                    
-;                }
+                    _unitOfWork.Category.Add(category);
+                    ;
+                }
                 else
                 {
                     _unitOfWork.Category.Update(category);
@@ -67,6 +59,15 @@ namespace BulkyBookMVC.Areas.Admin.Controllers
                 return RedirectToAction(nameof(Index));
             }
             return View(category);
+        }
+
+        #region API CALLS
+
+        [HttpGet]
+        public IActionResult GetAll()
+        {
+            var allObj = _unitOfWork.Category.GetAll();
+            return Json(new { data = allObj });
         }
 
         [HttpDelete]

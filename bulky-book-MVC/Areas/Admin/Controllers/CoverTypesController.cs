@@ -44,15 +44,6 @@ namespace BulkyBookMVC.Areas.Admin.Controllers
             return View(coverTypes);
         }
 
-        #region API CALLS
-
-        [HttpGet]
-        public IActionResult GetAll()
-        {
-            var allObj = _unitOfWork.StoredProcedure_Call.List<CoverTypes>(SD.Proc_CoverType_GetAll, null);
-            return Json(new { data = allObj });
-        }
-
         [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult Upsert(CoverTypes coverTypes)
@@ -63,8 +54,9 @@ namespace BulkyBookMVC.Areas.Admin.Controllers
                 parameter.Add("@Name", coverTypes.Name);
                 if (coverTypes.Id == 0)
                 {
-                    _unitOfWork.StoredProcedure_Call.Execute(SD.Proc_CoverType_Create, parameter);                    
-;                }
+                    _unitOfWork.StoredProcedure_Call.Execute(SD.Proc_CoverType_Create, parameter);
+                    ;
+                }
                 else
                 {
                     parameter.Add("@Id", coverTypes.Id);
@@ -75,6 +67,16 @@ namespace BulkyBookMVC.Areas.Admin.Controllers
             }
             return View(coverTypes);
         }
+
+        #region API CALLS
+
+        [HttpGet]
+        public IActionResult GetAll()
+        {
+            var allObj = _unitOfWork.StoredProcedure_Call.List<CoverTypes>(SD.Proc_CoverType_GetAll, null);
+            return Json(new { data = allObj });
+        }
+
 
         [HttpDelete]
         public IActionResult Delete(int id)
