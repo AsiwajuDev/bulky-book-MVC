@@ -154,7 +154,18 @@ namespace BulkyBookMVC.Areas.Identity.Pages.Account
                         await _roleManager.CreateAsync(new IdentityRole(SD.Role_User_Individual));
                     }
 
-                    await _userManager.AddToRoleAsync(user, SD.Role_Admin);
+                    if(user.Role == null)
+                    {
+                        await _userManager.AddToRoleAsync(user, SD.Role_User_Individual);
+                    }
+                    else
+                    {
+                        if(user.CompanyId > 0)
+                        {
+                            await _userManager.AddToRoleAsync(user, SD.Role_User_Company);
+                        }
+                        await _userManager.AddToRoleAsync(user, user.Role);
+                    }
 
                     //var code = await _userManager.GenerateEmailConfirmationTokenAsync(user);
                     //code = WebEncoders.Base64UrlEncode(Encoding.UTF8.GetBytes(code));
@@ -173,8 +184,17 @@ namespace BulkyBookMVC.Areas.Identity.Pages.Account
                     }
                     else
                     {
-                        await _signInManager.SignInAsync(user, isPersistent: false);
-                        return LocalRedirect(returnUrl);
+                        if(user.Role == null)
+                        {
+                            await _signInManager.SignInAsync(user, isPersistent: false);
+                            return LocalRedirect(returnUrl);
+                        }
+                        else
+                        {
+                            //admin wants to register a new user
+                            return RedirectToAction("Index", "User", new { Area = "Admin" });
+                        }
+                       
                     }
                 }
                 foreach (var error in result.Errors)
