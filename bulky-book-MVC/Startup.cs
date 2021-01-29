@@ -15,6 +15,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using BulkyBook.DataAccess.Repository.IRepository;
 using BulkyBook.DataAccess.Repository;
+using Microsoft.AspNetCore.Identity.UI.Services;
+using BulkyBook.Utility;
 
 namespace BulkyBook
 {
@@ -35,8 +37,10 @@ namespace BulkyBook
                     Configuration.GetConnectionString("DefaultConnection")));
 
             //services.AddDatabaseDeveloperPageExceptionFilter();
-            services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
+            services.AddIdentity<IdentityUser,IdentityRole>().AddDefaultTokenProviders()
                 .AddEntityFrameworkStores<ApplicationDbContext>();
+
+            services.AddSingleton<IEmailSender, EmailSender>();
 
             services.AddScoped<IUnitOfWork, UnitOfWork>();
 
