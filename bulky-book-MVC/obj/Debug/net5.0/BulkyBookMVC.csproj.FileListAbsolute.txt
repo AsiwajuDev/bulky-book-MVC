@@ -600,7 +600,6 @@ C:\Users\kasiwaju\Documents\Git\bulky-book-MVC\bulky-book-MVC\bin\Debug\net5.0\r
 C:\Users\kasiwaju\Documents\Git\bulky-book-MVC\bulky-book-MVC\bin\Debug\net5.0\refs\System.Data.dll
 C:\Users\kasiwaju\Documents\Git\bulky-book-MVC\bulky-book-MVC\bin\Debug\net5.0\refs\System.Diagnostics.Contracts.dll
 C:\Users\kasiwaju\Documents\Git\bulky-book-MVC\bulky-book-MVC\bin\Debug\net5.0\refs\System.Diagnostics.Debug.dll
-C:\Users\kasiwaju\Documents\Git\bulky-book-MVC\bulky-book-MVC\bin\Debug\net5.0\refs\System.Diagnostics.DiagnosticSource.dll
 C:\Users\kasiwaju\Documents\Git\bulky-book-MVC\bulky-book-MVC\bin\Debug\net5.0\refs\System.Diagnostics.EventLog.dll
 C:\Users\kasiwaju\Documents\Git\bulky-book-MVC\bulky-book-MVC\bin\Debug\net5.0\refs\System.Diagnostics.FileVersionInfo.dll
 C:\Users\kasiwaju\Documents\Git\bulky-book-MVC\bulky-book-MVC\bin\Debug\net5.0\refs\System.Diagnostics.Process.dll
@@ -927,3 +926,4 @@ C:\Users\kasiwaju\Documents\Git\bulky-book-MVC\bulky-book-MVC\obj\Debug\net5.0\R
 C:\Users\kasiwaju\Documents\Git\bulky-book-MVC\bulky-book-MVC\obj\Debug\net5.0\Razor\Areas\Admin\Views\Product\Upsert.cshtml.g.cs
 C:\Users\kasiwaju\Documents\Git\bulky-book-MVC\bulky-book-MVC\obj\Debug\net5.0\Razor\Areas\Admin\Views\Company\Index.cshtml.g.cs
 C:\Users\kasiwaju\Documents\Git\bulky-book-MVC\bulky-book-MVC\obj\Debug\net5.0\Razor\Areas\Admin\Views\Company\Upsert.cshtml.g.cs
+C:\Users\kasiwaju\Documents\Git\bulky-book-MVC\bulky-book-MVC\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
