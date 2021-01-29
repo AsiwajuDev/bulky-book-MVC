@@ -925,3 +925,5 @@ C:\Users\kasiwaju\Documents\Git\bulky-book-MVC\bulky-book-MVC\bin\Debug\net5.0\M
 C:\Users\kasiwaju\Documents\Git\bulky-book-MVC\bulky-book-MVC\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
 C:\Users\kasiwaju\Documents\Git\bulky-book-MVC\bulky-book-MVC\obj\Debug\net5.0\Razor\Areas\Admin\Views\Product\Index.cshtml.g.cs
 C:\Users\kasiwaju\Documents\Git\bulky-book-MVC\bulky-book-MVC\obj\Debug\net5.0\Razor\Areas\Admin\Views\Product\Upsert.cshtml.g.cs
+C:\Users\kasiwaju\Documents\Git\bulky-book-MVC\bulky-book-MVC\obj\Debug\net5.0\Razor\Areas\Admin\Views\Company\Index.cshtml.g.cs
+C:\Users\kasiwaju\Documents\Git\bulky-book-MVC\bulky-book-MVC\obj\Debug\net5.0\Razor\Areas\Admin\Views\Company\Upsert.cshtml.g.cs
